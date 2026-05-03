@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#111827"/>
+  <text x="40" y="50" fill="#dbeafe" font-size="30" font-family="Arial">Modelo BDD PillHour (referencial)</text>
+  <g fill="none" stroke="#60a5fa" stroke-width="2">
+    <rect x="40" y="110" width="240" height="150" rx="10"/>
+    <rect x="330" y="110" width="240" height="180" rx="10"/>
+    <rect x="620" y="110" width="240" height="150" rx="10"/>
+    <rect x="910" y="110" width="240" height="150" rx="10"/>
+    <rect x="330" y="350" width="240" height="130" rx="10"/>
+    <rect x="620" y="350" width="240" height="130" rx="10"/>
+    <line x1="280" y1="180" x2="330" y2="180"/>
+    <line x1="570" y1="180" x2="620" y2="180"/>
+    <line x1="860" y1="180" x2="910" y2="180"/>
+    <line x1="450" y1="290" x2="450" y2="350"/>
+    <line x1="740" y1="260" x2="740" y2="350"/>
+  </g>
+  <g fill="#e5edff" font-size="24" font-family="Arial">
+    <text x="60" y="145">usuarios</text>
+    <text x="350" y="145">programacion</text>
+    <text x="640" y="145">medicamentos</text>
+    <text x="930" y="145">tipos_medicamento</text>
+    <text x="350" y="385">alertas</text>
+    <text x="640" y="385">configuracion_correos</text>
+  </g>
+  <text x="40" y="640" fill="#9fb6dc" font-size="20" font-family="Arial">Inserta aquí tu imagen final de la BDD si deseas reemplazar este esquema.</text>
+</svg>
