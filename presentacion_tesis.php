@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PillHour | Defensa de Tesis</title>
+  <title>PillHour | Presentación del Proyecto</title>
   <style>
     :root{
       --bg:#ece9e2;
@@ -97,13 +97,13 @@
 </head>
 <body>
   <header class="hero">
-    <h1>PillHour: Guion de Defensa de Tesis</h1>
-    <p>Presentación orientada a exposición oral: problema, solución, arquitectura IoT + plataforma web, base de datos (BDD), resultados de pruebas y mejoras futuras.</p>
+    <h1>PillHour: Presentación del Proyecto PillHour</h1>
+    <p>Resumen visual del problema, solución, arquitectura IoT + plataforma web, base de datos (BDD), resultados de pruebas y mejoras futuras.</p>
   </header>
 
   <main class="wrap">
     <section class="card">
-      <h2>1) Apertura para la defensa</h2>
+      <h2>1) Contexto del problema</h2>
       <p>El problema que abordamos es la falta de adherencia farmacológica en adultos mayores con enfermedades crónicas. PillHour propone una solución integral con dispensación automática y monitoreo remoto para reducir olvidos y riesgos clínicos.</p>
       <span class="pill">IoT con ESP32</span><span class="pill">Plataforma Web</span><span class="pill">BDD en Supabase</span><span class="pill">Alertas de dosis omitida</span>
     </section>
@@ -141,7 +141,7 @@
         <img src="assets/img/modelo_bdd_pillhour.svg" alt="Modelo de base de datos del sistema PillHour" />
         <p class="caption"><strong>Figura:</strong> Modelo de BDD de PillHour (usuarios, programación, medicamentos, alertas, historial y relaciones).</p>
       </div>
-      <p class="muted">Nota: coloca aquí la imagen del diagrama de base de datos que compartiste, guardándola como <code>assets/img/modelo_bdd_pillhour.svg</code>.</p>
+      <p class="muted">Imagen de referencia del modelo de base de datos ubicada en <code>assets/img/modelo_bdd_pillhour.svg</code>.</p>
     </section>
 
     <section class="card">
@@ -156,7 +156,7 @@
     </section>
 
     <section class="card">
-      <h2>5) Resultados clave (para sustentar en defensa)</h2>
+      <h2>5) Resultados clave</h2>
       <table>
         <thead><tr><th>Configuración</th><th>Pruebas</th><th>Correctas</th><th>Precisión</th></tr></thead>
         <tbody>
@@ -178,17 +178,17 @@
     </section>
 
     <section class="card">
-      <h2>7) Guion breve para exponer (3–5 minutos)</h2>
+      <h2>7) Ruta sugerida de explicación</h2>
       <ul class="speaker-notes">
-        <li><strong>Min 1:</strong> problema real y población objetivo (adultos mayores).</li>
-        <li><strong>Min 2:</strong> solución PillHour y arquitectura IoT + web + BDD.</li>
-        <li><strong>Min 3:</strong> diagrama de base de datos y flujo de datos.</li>
-        <li><strong>Min 4:</strong> resultados de precisión y limitaciones encontradas.</li>
-        <li><strong>Min 5:</strong> conclusiones, impacto y trabajo futuro.</li>
+        <li><strong>Paso 1:</strong> problema real y población objetivo (adultos mayores).</li>
+        <li><strong>Paso 2:</strong> solución PillHour y arquitectura IoT + web + BDD.</li>
+        <li><strong>Paso 3:</strong> diagrama de base de datos y flujo de datos.</li>
+        <li><strong>Paso 4:</strong> resultados de precisión y limitaciones encontradas.</li>
+        <li><strong>Paso 5:</strong> conclusiones, impacto y trabajo futuro.</li>
       </ul>
     </section>
   </main>
 
-  <footer>Defensa de tesis · Proyecto PillHour · Dispensador Inteligente de Medicamentos</footer>
+  <footer>Proyecto PillHour · Dispensador Inteligente de Medicamentos</footer>
 </body>
 </html>
